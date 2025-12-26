@@ -1,0 +1,6 @@
+airflow 3.x
+pandas
+sqlite3
+plotly
+streamlit
+
