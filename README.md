@@ -9,24 +9,7 @@ Ce projet met en place un système complet de collecte, stockage, transformation
 Il s’agit d’un pipeline de données de type ETL (Extract – Transform – Load) orchestré avec Apache Airflow, stockant les données dans SQLite, puis exposant des visualisations interactives via Streamlit.
 
 # Architecture
-CoinGecko API
-      |
-      v
-[ Extraction ]
-      |
-      v
-[ Staging SQLite ]
-  - données brutes
-  - historisation
-      |
-      v
-[ Transformation ]
-      |
-      v
-[ Final data ]
-      |
-      v
-[ Streamlit Dashboard ]
+CoinGecko API ---> [ Extraction ] ---> [ Staging SQLite ] ---> [ Transformation ] ---> [ Final data ] ---> [ Streamlit Dashboard ]
 
 
 # Objectifs
